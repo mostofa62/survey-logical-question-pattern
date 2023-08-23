@@ -1,0 +1,23 @@
+{
+    "gender":[
+        {"value":"1","label":"Male"},
+        {"value":"2","label":"Female"}
+    ],
+    "found":[
+        {"value":"ln","label":"Linkedin"},
+        {"value":"ggle","label":"Google"},
+        {"value":"email","label":"Email"}
+    ],
+    "food_choices":[
+        {"value":"1","label":"Mango"},
+        {"value":"2","label":"Jackfruit"},
+        {"value":"3","label":"Apple"},
+        {"value":"4","label":"Orange"}
+    ],
+    "dress_codes":[
+        {"value":"1","label":"Shirts"},
+        {"value":"2","label":"Pajamas"},
+        {"value":"3","label":"Panjabi"},
+        {"value":"4","label":"Pent"}
+    ]
+}

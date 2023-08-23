@@ -1,0 +1,43 @@
+{
+    "section1.gender":[
+        {
+            "not":[1],
+            "fields":{
+                "section1.age":0,
+                "section1.food_choices":null,
+                "section1.found":[],
+                "section1.dress_code":[],
+                "section2.food_choices":[]
+
+            }        
+    
+        }
+        
+    ],
+    "section1.age":[
+        {
+            "range":[18,35],
+            "fields":{                
+                "section1.found":[]
+            }        
+
+        },
+
+        {
+            "range":[36,45],
+            "fields":{                
+                "section1.food_choices":null
+            }        
+    
+        
+        },
+        {
+            "lt":18,
+            "fields":{
+                "section1.food_choices":null,
+                "section1.found":[],                
+                "section1.dress_code":[]
+            }
+        }
+    ]
+}
